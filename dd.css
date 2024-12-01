@@ -1,0 +1,71 @@
+.h1{
+text-align: center;
+color: #11239a;
+font-family: "Nerko One", cursive;
+
+}
+body{
+    font-family: "Nerko One", cursive;
+    text-align: center;
+    background-image: url('https://parashat.co.il/wp-content/uploads/2023/09/shlomo0355_Beautiful_backgrounds_of_mountains_colorful_water_pa_ed06cbf4-addb-4b02-ab11-b01f2104dd31.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+#errors{
+
+    color:black; 
+    font-size: larger;
+}
+#board{
+width: 450px;
+height: 450px;
+background-color: aqua;
+margin:0 auto;
+display: flex;
+flex-wrap: wrap;
+}
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#digits{
+    width: 450px;
+    height: 450px;
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .number {
+        width: 44px; 
+        height:44px;
+        border: 1px solid rgb(152, 6, 6);
+        margin:2px;
+    /* Text */
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+.number-selected {
+    background-color: gray;
+}
+.tile-start {
+    background-color: whitesmoke;}
+    
+    
+    .horizontal-line {
+        border-bottom: 1px solid black;
+    }
+    
+    .vertical-line {
+        border-right: 1px solid black;
+    }
